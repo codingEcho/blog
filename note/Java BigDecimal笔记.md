@@ -131,7 +131,7 @@ public void convertTo() {
 
 ## 4 精度和小数位 
 
-- precision(),返回精度(除小数点之外的位数包含末尾的0)
+- precision(),~~返回精度(除小数点之外的位数包含末尾的0)~~ The precision is the number of digits in the unscaled value.The precision of a zero value is 1.
 - scale(),返回小数位数（小数点之后的位数）
 - ulp()
 
@@ -142,10 +142,16 @@ public void convertTo() {
   @Test
   public void precisionAndScale() {
     BigDecimal decimal = new BigDecimal("1210.5123450");
-    // 精度=整数位数+小数位数(包含末尾的0)
+    // 精度=整数位数+小数位数(包含末尾的0) // 这是一个错误的理解！！！
     print(decimal.precision()); // 11
+    
+    BigDecimal decimal1 = new BigDecimal("0.00054321");
+    print(decimal1.scale()); // 7
+    print(decimal1.precision()); // 5
+      
     // 小数位
     print(decimal.scale()); // 7
+      
 
     print(decimal.setScale(1, RoundingMode.HALF_UP)); // 1210.5
 
