@@ -1,0 +1,127 @@
+# Intellij IDEA 
+
+## 1 快捷键
+
+- Intellij IDEA
+  - Preferences...(打开设置)  **`cmd + ,`**
+  - Hide IntelliJ IDEA(隐藏IDEA) **`cmd + H`**
+  - Hide Others(隐藏其它)  **`alt + cmd + H`**
+  - Quit IDEA(退出) **`cmd + Q`**
+- File (创建、打开、关闭、导出文件、项目)
+  - Save All  **`cmd + S`**
+  - Line Separators **`CRLF - windows(\r\n)、LF - Unix and OSX(\n)、CR - Classic Mac(\r)`**
+- Edit
+  - Undo  **`cmd + Z`**
+  - Redo **`shift + cmd + Z`**
+  - Cut  **`cmd + X`**
+  - Copy  **`cmd + C`**
+  - <u>**Copy Path(复制文件路径)**</u>  **`shift + cmd + C`**
+  - Copy Reference  **`alt + shift + cmd + C`** 
+  - Paste **`cmd + V`**
+  - <u>**Paste from history(从历史中选择粘贴)**</u>  **`shift + cmd + V`**
+  - Paste simple `alt + shift + cmd + V`
+  - Find
+    - Find **`cmd + F`** 
+    - Replace **`cmd + R`**
+    - <u>**Find Next/Move to next Occurrence**</u>  **`cmd + G`**
+    - <u>**Find Prev/Move to prev Occurrence**</u>  **`shift + cmd + G`**
+    - Select All Occurrence **`control + cmd + G`**
+    - Add selection for next Occurrence **`control + G`**
+    - Unselect Occurrence **`control + shift + G`**
+    - Find in Path...  **`shift + cmd + F`**
+    - Replace in Path...  **`shift + cmd + R`**
+    - <u>**Find useage**</u>  **`option + F7`即`fn + alt + F7`**，多个情况下，回车选中使用项，按`esc` 即可跳到代码
+  - **Jump to Source(跳转到定义)** **`cmd + down`**`
+  - Extend Selection **`alt + up`**
+  - Shrink Selection **`alt + down`** 
+  - Join Lines(连接行) **`shift + control + J`**
+  - Duplicate Line(复制行) **`cmd + d`**
+  - Toggle Case(切换大小写，选中的代码或所在的行) **`shift + cmd + U`**
+  - Complete current statment
+    -  **`shift + cmd + enter`(在当前代码后新起一行，光标移动到新行)**
+    - **`cmd + enter`（在当前代码前新起一行，光标移动到新行）**
+- View （打开、关闭视图）
+  - Tool Windos
+    - **Project** **`cmd + 1`**
+    - Favorites **`cmd + 2`**
+    - Find **`cmd + 3`**
+    - **<u>Run</u>** **`cmd + 4`**
+    - **<u>Debug</u>** **`cmd + 5`**
+    - TODO **`cmd + 6`**
+    - Structure **`cmd + 7`**
+    - Version Control **`cmd + 9`**
+    - **<u>Terminal</u>** **`alt + F12`**
+  - **Recent Files(最近打开过的文件)** **`cmd + E`**
+  - **Recent Changed Files(最近编辑过的文件)** **`shift + cmd + E`**
+  - Recent Changes(类似操作日志) `alt + shift + C
+  - <u>Enter Full Screen (进入、退出全屏)</u> **`control + cmd + F`** 
+  - Quick Switch scheme... <u>**control + `**</u> (快速切换Color Scheme 、Code Style Scheme、Key Map、View Mode（可进入类似全代码视图）、Look Feel（明暗主题快速切换） )
+  - **`control + tab`** 切换
+- **Navigate**
+  - Class…(打开类) **`cmd + O`**
+  - File...（打开文件） **`shift + cmd + O`**
+  - Symbol... （打开字段、方法）`option + cmd + O`
+  - Back（向后移动光标停留的过行） **`cmd + [`**
+  - Forwad（向前移动光标停留过的行） **`cmd + ]`**
+  - **Last Edit Location (最后编辑位置) `shift + cmd + delete`**
+  - Select in `option + F1` (选择并进入Tool Window、部分窗口不能进入)
+  - **Declaration(查看定义) `cmd + B`**
+  - **Implementation(在“接口”列出实现该“接口”的类) `option + cmd +B`**
+  - Super Method(查看父类) `cmd + U`
+  - Test 测试（不存在单元测试、将提示创建） `shift + cmd + T`
+  - Related Symbol `control + cmd + up`
+  - Type Hierarchy（查看类型的继承层次结构） `control + H`
+  - Method Hierarchy（方法的层次结构、在接口中可以看出哪些类实现了该方法） `shift + cmd + H`
+  - Call Hierarchy（调用层次结构） `control + option + H`
+  - **Next Highlighted Error（下一个错误位置） `F2`**
+  - Previous Highlighted Error（前一个错误位置） `shift + F2`
+  - ~~Next Emmet Edit Point `control + option + right`~~
+  - ~~`Previous Highlighted Error `control + option + left`~~
+  - Next method `control + down`
+  - Previous Method `control + up`
+- Code
+  - **Generate...(生成Getter/Setter,构造函数、重写方法等) `cmd + N`**
+  - **Surround With... (try、if、runable等) `option + cmd + T`**
+  - **Insert Live Template `cmd + J`**
+  - Surround With Template `option + cmd + J`
+  - Comment With line comment(行注释) `cmd + /`
+  - Comment With block comment(块注释) `shift + cmd + /`
+  - **Reformat Code(格式化代码) `option + cmd + L**
+  - Show Reformat File Dialog `option + shift + cmd + L`
+  - Auto-Indent Lines `control + option + I`
+  - **Optimize Imports (优化import) `control + option + O`**
+  - **Move Statement Down(下移代码段,不能超过父级) `shift + cmd + down`**
+  - **Move Statement Up(上移代码段,不能超过父级) `shift + cmd + up**`
+  - Move Line Down(向下任意移动行) `option + shift + down
+  - Move Line Up(向上任意移动行) `option + shift + up`
+  - Convert Java File to Kotlin File `option + shift + cmd + K `
+- Analyze
+- Refactor
+  - **Rename `shift + F6`**
+  - **Change Signature... `cmd + F6`**
+  - 
+- Build
+  - **Build Project `cmd + F9`**
+  - **Rebuild Class `shift + cmd + F9**`
+  - Extract
+    - **Variable...(提取变量) `option + cmd + V`**
+    - **Constant...(提取静态常量) `option + cmd + C`**
+    - **Field...(提取字段) `option + cmd + P`**
+    - **Parameter...(提取参数) `option + cmd + P`**
+    - **Method...(提取方法) `option + cmd + M`**
+- Run
+  - Toggle Line BreakPoint `cmd + F8`
+- Tools
+- VCS
+  - Revert `option + cmd + Z`
+- Window
+  - **Next Project Window**（下一个项目） <u>**cmd +`**</u> 
+  - **Previous Project Window**（前一个项目） **<u>shift + cmd + `</u>**
+- Help
+  - **Find Action** `shift + cmd + A`
+
+
+
+## xx
+
+Annotate - 查看代码作者信息
