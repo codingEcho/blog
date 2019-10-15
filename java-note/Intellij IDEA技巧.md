@@ -30,7 +30,7 @@
     - Unselect Occurrence **`control + shift + G`**
     - Find in Path...  **`shift + cmd + F`**
     - Replace in Path...  **`shift + cmd + R`**
-    - <u>**Find useage**</u>  **`option + F7`即`fn + alt + F7`**，多个情况下，回车选中使用项，按`esc` 即可跳到代码
+    - <u>**Find useage**</u>  `option + F7`，多个情况下，回车选中使用项，按`esc` 即可跳到代码
   - **Jump to Source(跳转到定义)** **`cmd + down`**`
   - Extend Selection **`alt + up`**
   - Shrink Selection **`alt + down`** 
@@ -66,7 +66,7 @@
   - **Last Edit Location (最后编辑位置) `shift + cmd + delete`**
   - Select in `option + F1` (选择并进入Tool Window、部分窗口不能进入)
   - **Declaration(查看定义) `cmd + B`**
-  - **Implementation(在“接口”列出实现该“接口”的类) `option + cmd +B`**
+  - <u>**Implementation(在“接口”列出实现该“接口”的类) `option + cmd + B`**</u>
   - Super Method(查看父类) `cmd + U`
   - Test 测试（不存在单元测试、将提示创建） `shift + cmd + T`
   - Related Symbol `control + cmd + up`
@@ -91,7 +91,7 @@
   - Auto-Indent Lines `control + option + I`
   - **Optimize Imports (优化import) `control + option + O`**
   - **Move Statement Down(下移代码段,不能超过父级) `shift + cmd + down`**
-  - **Move Statement Up(上移代码段,不能超过父级) `shift + cmd + up**`
+  - **Move Statement Up(上移代码段,不能超过父级) `shift + cmd + up`**
   - Move Line Down(向下任意移动行) `option + shift + down
   - Move Line Up(向上任意移动行) `option + shift + up`
   - Convert Java File to Kotlin File `option + shift + cmd + K `
